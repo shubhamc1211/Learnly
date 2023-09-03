@@ -1,0 +1,11 @@
+/**
+ * @author Amanjot Singh <am854663@dal.ca/B00942293>
+ */
+
+.profile-email-field {
+  width: 100%;
+}
+.profile-form,
+.profile-right-div {
+  font-family: "Roboto", Arial, sans-serif !important;
+}

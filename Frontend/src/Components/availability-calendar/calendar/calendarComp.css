@@ -1,0 +1,83 @@
+  /**
+ * @author Taranjot Singh <tr548284@dal.ca/B00945917>
+ */
+
+ .setting-heading {
+  color: #161414be;
+  margin-left: 30px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.text-settings {
+  padding-right: 300px;
+}
+
+@media (min-width: 921px) and (max-width: 1024px) {
+  .setting-heading  {
+    width: 380px;
+  }
+  .text-settings {
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 595px) and (max-width: 920px) {
+  .setting-heading  {
+    width: 180px;
+  }
+  .text-settings {
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 594px) {
+  tr.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text-settings {
+    margin-bottom: 10px;
+    padding-right: 0px;
+  }
+  #notice-period{
+    width: 350px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 347px) and (max-width: 399px) {
+  tr.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text-settings {
+    margin-bottom: 10px;
+    padding-right: 0px;
+  }
+  #notice-period{
+    width: 310px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 291px) and (max-width: 346px) {
+  tr.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .text-settings {
+    margin-bottom: 10px;
+    padding-right: 0px;
+  }
+  #notice-period{
+    width: 250px;
+    padding-left: 30px;
+  }
+  .setting-heading {
+    width: 260px;
+  }
+}

@@ -1,0 +1,55 @@
+/**
+ * This is the stylesheet for the contact page.
+ * Author: Taranjot Singh <tr548284@dal.ca/B00945917>
+ */
+
+/* Styles for the main contact section */
+.Contact {
+  text-align: center; /* Center-align the content within the contact section */
+}
+
+/* Styles for the container holding the contact elements */
+.contact-container {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  min-height: 100vh; /* Minimum height of the container as 100% of the viewport height */
+  /* align-items: stretch; Ensure both columns have equal height (commented out) */
+}
+
+/* Styles for the left side (form) of the container */
+.left-form {
+  padding: 2%; /* Add padding to the left side content */
+}
+
+/* Styles for the right side (information) of the container */
+.right-info {
+  background-color: #ffffff; /* White background */
+  padding: 20px; /* Add padding to the content */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center the content */
+  justify-content: center; /* Horizontally center the content */
+  color: #ffffff; /* Text color is white */
+}
+
+/* Styles for the information box */
+.info {
+  border-radius: 5px; /* Add rounded corners to the box */
+  padding: 7%; /* Add padding to the box content */
+  background-color: #1d267d; /* Dark blue background color */
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  /* Change layout to a single column on mobile */
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Media query for screens with a width between 291px and 346px */
+@media (min-width: 291px) and (max-width: 346px) {
+  /* Adjust width of specific input fields on smaller screens */
+  #text-message, #text-subject {
+    width: 195px;
+  }
+}

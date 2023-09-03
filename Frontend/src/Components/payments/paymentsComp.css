@@ -1,0 +1,9 @@
+/**
+ * This stylesheet is for styling payments component.
+ * Author: Taranjot Singh <tr548284@dal.ca/B00945917>
+ */
+
+ /* Style for the header component container & inner content of the header component */
+ .pagesHeaderCompDiv .pagesHeaderCompInnerDiv{
+  padding: 2%;
+}

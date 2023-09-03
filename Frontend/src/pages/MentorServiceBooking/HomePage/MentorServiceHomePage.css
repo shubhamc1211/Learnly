@@ -1,0 +1,36 @@
+/**
+ * @author Shivam Lakhanpal <sh475218@dal.ca/B00932887>
+ */
+.mentor-service-homepage {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  width: 25%;
+  background-color: #e3e3e3;
+}
+
+.right-container {
+  width: 75%;
+  background-color: #ffffff;
+  /* margin-left: 25%; */
+}
+
+/* Mobile and tablet views */
+@media (max-width: 900px) {
+  .mentor-service-homepage {
+    display: block;
+  }
+
+  .left-container {
+    width: 100%;
+    position: static;
+    height: 35%;
+  }
+
+  .right-container {
+    width: 100%;
+    margin-left: 0;
+  }
+}

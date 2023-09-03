@@ -1,0 +1,82 @@
+/**
+ * @author Shivam Lakhanpal <sh475218@dal.ca/B00932887>
+ */
+
+.booking-card {
+  width: 80%;
+  margin: 4% 2% 2% 10%;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.booking-card:hover {
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.booking-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.booking-title {
+  font-size: 1.5em;
+  flex: 1;
+  text-align: left;
+  margin-left: 0px !important;
+}
+
+.booking-date {
+  font-size: 1em;
+  flex: 1;
+  text-align: right;
+}
+
+.booking-time {
+  font-size: 1em;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e1e1e1;
+  margin: 15px 0;
+}
+
+.call-details-btn {
+  display: block;
+  margin: 10px auto;
+}
+
+.MuiModal-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 80%;
+  max-width: 400px;
+  padding: 5%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-and-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.booking-status {
+  margin-left: 10px;
+  font-weight: bold;
+}

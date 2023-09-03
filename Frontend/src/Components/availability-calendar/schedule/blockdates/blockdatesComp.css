@@ -1,0 +1,63 @@
+  /**
+ * @author Taranjot Singh <tr548284@dal.ca/B00945917>
+ */ 
+ .block-dates {
+  margin-left: 70px;
+  border: 2px solid #1D267D;
+  width: 380px;
+  padding: 20px;
+  height: 150px;
+}
+
+.block-dates h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.block-dates p {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+@media (min-width: 595px) and (max-width: 920px) {
+  .block-dates {
+    padding-left: 20px;
+    width: 520px;
+    margin-left: 15px !important;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 596px) {
+  .block-dates {
+    width: 350px;
+    margin-left: 15px !important;
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 347px) and (max-width: 399px) {
+  .block-dates {
+    width: 300px;
+    margin-left: 15px !important;
+    margin-top: 25px;
+  }
+
+  .block-dates p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 291px) and (max-width: 346px) {
+  .block-dates {
+    width: 250px;
+    margin-left: 15px !important;
+    margin-top: 25px;
+  }
+
+  .block-dates p {
+    font-size: 14px;
+    text-align: justify;
+  }
+}

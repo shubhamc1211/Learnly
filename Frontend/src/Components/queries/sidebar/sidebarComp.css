@@ -1,0 +1,32 @@
+/**
+ * @author Shubham Chauhan <sh572302@dal.ca/B00945891>
+ */
+.querySidebarComp .sidebar-container {
+    padding: 1rem;
+  }
+  
+.querySidebarComp .sidebar-button {
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+  }
+  
+.querySidebarComp .sidebar-button.selected {
+    background-color: black;
+  }
+
+.querySidebarComp {
+  min-height: 60vh; 
+  max-height: 73vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+  
+@media (max-width: 600px) {
+  .querySidebarComp {
+    min-height: fit-content; 
+  }
+}

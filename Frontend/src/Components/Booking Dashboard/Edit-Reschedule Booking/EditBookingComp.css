@@ -1,0 +1,28 @@
+/**
+ * @author Shivam Lakhanpal <sh475218@dal.ca/B00932887>
+ */
+
+.edit-booking {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cancel-booking-button {
+  background-color: red !important;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+.cancel-booking-button:hover {
+  background-color: darkred;
+}
+/* EditBookingComp.css */
+.reschedule-booking-button {
+  margin-left: 10px !important;
+}

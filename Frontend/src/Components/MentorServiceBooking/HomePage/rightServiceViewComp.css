@@ -1,0 +1,96 @@
+/**
+ * @author Shivam Lakhanpal <sh475218@dal.ca/B00932887>
+ */
+.grid-container {
+  padding-left: 10%;
+  padding-top: 8%;
+  padding-right: 10%;
+}
+
+.service-card {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 6%;
+  margin-top: 5%;
+  padding-left: 6%;
+  padding-right: 6%;
+  border-radius: 5px;
+  text-align: center;
+  position: relative;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.icon-box {
+  position: absolute;
+  top: 10px;
+}
+
+.service-name {
+  margin-top: 15px;
+  margin-bottom: auto;
+}
+
+.detail-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.icon-box-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* For tablets and larger mobile devices */
+@media only screen and (max-width: 768px) {
+  .grid-container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .service-card {
+    padding-bottom: 4%;
+    margin-top: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .service-name {
+    margin-top: 10px;
+  }
+}
+
+/* For smaller mobile devices */
+@media only screen and (max-width: 480px) {
+  .grid-container {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+  }
+
+  .service-card {
+    height: auto; /* Allowing it to auto-adjust its height based on content */
+    padding-bottom: 3%;
+    margin-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .icon-box,
+  .icon-box-right {
+    top: 5px;
+  }
+
+  .service-name {
+    margin-top: 8px;
+  }
+}

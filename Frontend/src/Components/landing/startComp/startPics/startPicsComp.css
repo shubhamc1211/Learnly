@@ -1,0 +1,29 @@
+/**
+ * @author Shubham Chauhan <sh572302@dal.ca/B00945891>
+ */
+.startPicsComp {
+  font-family: "PT Serif", serif !important ;
+  height: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20%;
+}
+
+@media (max-width: 600px) {
+  .startPicsComp {
+    display: none;
+  }
+}
+
+.startPicsComp .imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.startPicsComp .image {
+  width: 300px;
+  height: 300px;
+  /* object-fit: "cover"; */
+  /* margin: 10px; */
+}

@@ -1,0 +1,31 @@
+  /**
+ * @author Taranjot Singh <tr548284@dal.ca/B00945917>
+ */ 
+  
+ .left-schedule {
+  padding: 2%;
+}
+
+.calendar-form{
+  width: 100%;
+} 
+.right-info {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.info {
+  border-radius: 5px; /* Add rounded corners */
+  padding: 7%;
+  background-color: #1d267d;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr; /* Display as a single column on mobile */
+  }
+}

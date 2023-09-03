@@ -1,0 +1,19 @@
+{
+    "101":{
+        "name": "Steve Jobs",
+        "imageSrc": "SteveJobs.jpg",
+        "quotes": "Design is how it works."
+    },
+
+    "102":{
+        "name": "Bill Gates",
+        "imageSrc": "BillGates.jpg",
+        "quotes": "Innovation is Future"
+    },
+    
+    "103":{
+        "name": "Sundar Pichai",
+        "imageSrc": "SundarPichai.jpg",
+        "quotes": "Build to use."
+    }
+}

@@ -1,0 +1,77 @@
+.faq-heading {
+  font-size: 51px;
+
+  line-height: 70px;
+
+  font-weight: 800;
+
+  margin-bottom: 20px;
+
+  margin-left: 10% !important;
+}
+
+.question-card {
+  margin-bottom: 1rem;
+
+  color: #0c134f;
+
+  border: none;
+
+  padding: 0;
+}
+
+.question-card .MuiAccordionSummary-content {
+  font-family: "PT Serif", serif;
+
+  margin-bottom: 8px;
+}
+
+.question-card .MuiAccordionSummary-expandIcon {
+  font-family: "PT Serif", serif;
+
+  margin-top: 4px;
+}
+
+.question-card .MuiAccordionSummary-content .MuiTypography-root {
+  font-weight: bold;
+}
+
+.question-card .MuiAccordionDetails-root {
+  padding: 16px;
+}
+
+.contact-link {
+  margin-top: 2rem;
+
+  color: #008060;
+
+  text-decoration: none;
+
+  background-color: transparent;
+
+  outline: none;
+
+  cursor: pointer;
+
+  font-size: 51px;
+
+  line-height: 70px;
+
+  font-weight: 800;
+
+  margin-bottom: 20px;
+
+  margin-left: 10%;
+}
+
+.contact-link-text {
+  font-weight: bold;
+}
+
+.faQuestions {
+  margin-top: 7.5% !important;
+}
+
+.faq-left-section {
+  margin-top: 15% !important;
+}

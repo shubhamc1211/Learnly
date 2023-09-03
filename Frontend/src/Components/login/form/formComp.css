@@ -1,0 +1,27 @@
+/**
+ * @author Amanjot Singh <am854663@dal.ca/B00942293>
+ */
+
+.email-field {
+  width: 100%;
+}
+.form,
+.right-div {
+  font-family: "Roboto", Arial, sans-serif !important;
+}
+.right-div {
+  padding-top: 2%;
+}
+
+/* .login-box .css-13r4j3i.MuiTextField-root {
+  margin: 8px;
+  width: 70% !important;
+} */
+
+/* .login-box .MuiTextField-root {
+  width: 90% !important;
+}
+
+.login-box .css-r47a1p-MuiFormControl-root {
+  width: 90% !important;
+} */

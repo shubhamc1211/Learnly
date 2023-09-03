@@ -1,0 +1,62 @@
+/**
+ * This is the stylesheet for the payments page.
+ * Author: Taranjot Singh <tr548284@dal.ca/B00945917>
+ */
+
+/* Styles for the header of the payments form */
+.payments-form-header {
+  margin: 21.44px; /* Add margin to the header */
+}
+
+/* Styles for the container holding the payments elements */
+.payments-container {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  min-height: 60vh; /* Minimum height of the container as 60% of the viewport height */
+  /* align-items: stretch; Ensure both columns have equal height (commented out) */
+}
+
+/* Styles for the left and right sides of the payments container */
+.left-pay, .right-pay {
+  padding: 2%; /* Add padding to the content of both sides */
+}
+
+/* Styles for the right side (summary) of the payments container */
+.right-pay {
+  height: 200px; /* Fixed height for the summary section */
+  margin-left: 70px; /* Add left margin to the summary section */
+}
+
+/* Styles for the balance box */
+.balance {
+  border-radius: 5px; /* Add rounded corners */
+  padding: 7%; /* Add padding to the box content */
+  width: 70%; /* Set width to 70% */
+  height: 100px; /* Set fixed height */
+  background-color: #ffffff; /* White background color */
+  border: 2px solid black; /* Add a black border */
+}
+
+/* Styles for the checkout button */
+.checkout {
+  margin-top: 80px; /* Add top margin to the checkout button */
+}
+
+/* Styles for the icon and text alignment */
+.icon-and-text {
+  float: left; /* Float the element to the left */
+}
+
+/* Styles for the balance amount alignment */
+.balance-amount {
+  float: right; /* Float the element to the right */
+  text-align: center; /* Center-align the text */
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  /* Change layout to a single column on mobile */
+  .payments-container {
+    grid-template-columns: 1fr;
+  }
+}

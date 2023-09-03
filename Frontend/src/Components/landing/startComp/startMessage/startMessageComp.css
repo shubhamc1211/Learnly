@@ -1,0 +1,17 @@
+/**
+ * @author Shubham Chauhan <sh572302@dal.ca/B00945891>
+ */
+.startMessageComp {
+  font-family: "PT Serif", serif !important ;
+  height: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 20%;
+}
+
+
+@media (max-width: 400px) {
+  .startMessageCompH2 {
+    font-size: xx-large !important;
+  }
+}

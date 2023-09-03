@@ -1,0 +1,139 @@
+/**
+ * @author Shubham Chauhan <sh572302@dal.ca/B00945891>
+ */
+.queryBodyCompDiv {
+    width: 95%;
+    height: 100%;
+    border-left: #958a8a solid;
+}
+
+.noBodyCompDiv {
+  height: 100%;
+}
+
+.queryBodyCompDiv .title {
+  border-bottom: #ccc solid 0.5px;
+  font-weight: 600;
+  margin-left: 2%;
+}
+
+.queryBodyCompDiv .userCardClass {
+  display: flex;
+}
+
+.queryBodyCompDiv button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textError.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textError.MuiButton-sizeMedium.MuiButton-textSizeMedium.deleteButton.css-10fi992-MuiButtonBase-root-MuiButton-root{
+  background-color: transparent;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.queryBodyCompDiv .textAreaContainer {
+  /* background-color: #ffffff; */
+  padding: 5px;
+  /* border: 1px solid #ccc; */
+  /* border: 1px solid red !important; */
+  box-sizing: border-box;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #b0b0b0;
+  border-radius: 6px;
+  margin-left: 3px;
+  height: 59vh;
+  }
+  
+.queryBodyCompDiv .text-box {
+  width: 97%;
+  height: 20vh;
+  padding: 6px;
+  margin-right: 2%;
+  margin-left: 1%;
+  overflow: auto; 
+  
+}
+
+
+.queryBodyCompDiv .formDiv{
+  height: 20vh;
+  margin-bottom: 20px;
+  background-color: #ebebeb;
+}
+
+.queryBodyCompDiv .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+  margin-bottom: 5px;
+  
+}
+
+.queryBodyCompDiv #outlined-multiline-static {
+  max-height: 100px;
+  height: 20vh !important;
+  width: 97%;
+  padding: 6px;
+  margin-right: 2%;
+  margin-left: 1%;
+  overflow: scroll;
+}
+
+
+.queryBodyCompDiv .submitButton {
+  /* height: 30px; */
+  /* width: 80px; */
+  /* border-radius: 6px; */
+  align-self: flex-end;
+  align-items: center;
+  color: #f0f0f0;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: rgb(44, 70, 163);
+}
+  
+.queryBodyCompDiv .responseTextBox{
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #EBEBEB;
+  background-image: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #b0b0b0;
+  border-radius: 6px;
+}
+
+.queryBodyCompDiv .MuiFormControl-root.MuiTextField-root.css-i44wyl {
+  width: 100%;
+}
+
+.queryBodyCompDiv .deleteButtonAnswered{
+  margin-left: 6px;
+}
+
+.noBodyCompDiv .noBodyInnerDiv {
+  /* border: #958a8a dashed  2px; */
+  font-size: x-large;
+  font-weight: 800;
+  border-radius: 5%;
+  width: 200px;
+  text-align: center;
+  vertical-align: middle;
+  /* background-color: #b6c1c9; */
+  padding-top: 0%;
+  padding-bottom: 100%;
+  opacity: 50%;
+}
+
+.noBodyCompDiv p {
+  margin-bottom: 1% !important;
+}
+
+.queryBodyCompDiv p {
+  margin-bottom: 1% !important;
+}
+
+.queryBodyCompDiv .buttonDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.queryBodyCompDiv .bodyCompDivInner{
+  padding-left: 2%;
+}

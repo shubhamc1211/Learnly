@@ -1,0 +1,41 @@
+/**
+ * @author Shubham Chauhan <sh572302@dal.ca/B00945891>
+ */
+ 
+.queryPageBody {
+    height: 100%;
+    /* background-color: #D3E0EA; */
+}
+
+
+.queryPageBody .belowHeader{
+    height: 80%;
+    min-height: 60vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.queryPageBody .MuiGrid-root.MuiGrid-container {
+    height: 100%;
+}
+
+.queryPageBody .body{
+    height: 100%;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 0px; 
+  }
+
+.item {
+    background-color: #D3E0EA;
+    padding: 0px;
+  } */
+
+@media (max-width: 600px) {
+    .queryPageBody .container {
+      grid-template-columns: 1fr; 
+    }
+  }

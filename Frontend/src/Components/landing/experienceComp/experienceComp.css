@@ -1,0 +1,11 @@
+/**
+ * @author Shubham Chauhan <sh572302@dal.ca/B00945891>
+ */
+.experienceComp {
+    min-height: 100vh;
+}
+
+.experienceComp .grid{
+    width: 100%;
+}
+

@@ -1,0 +1,15 @@
+  /**
+ * @author Taranjot Singh <tr548284@dal.ca/B00945917>
+ */
+ .pagesHeaderCompDiv .pagesHeaderCompInnerDiv {
+  padding: 2%;
+}
+
+@media (min-width: 291px) and (max-width: 346px) {
+  .calendar-button {
+    width: 50px;
+  }
+  .schedule-button {
+    width: 50px;
+  }
+}

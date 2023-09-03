@@ -1,0 +1,9 @@
+/**
+ * This stylesheet is for styling a contact form.
+ * Author: Taranjot Singh <tr548284@dal.ca/B00945917>
+ */
+
+/* Apply the "Roboto" font family to the entire contact form */
+.contact-form {
+  font-family: "Roboto", Arial, sans-serif !important;
+}

@@ -1,0 +1,72 @@
+.earnMoreComp {
+    background-color: black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-radius: 25px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+
+.discount {
+    background-color: #F48FB1;
+    border-radius: 25px;
+    padding: 25%;
+}
+
+.testimonials {
+    background-color: #B39DDB;
+    border-radius: 25px;
+    padding: 12%;
+}
+
+.revenue-sharing {
+    background-color: #8BC34A;
+    border-radius: 25px;
+    padding: 10%;
+    padding-top: 49%;
+    padding-bottom: 49%;
+}
+
+.pay-wish {
+    background-color: #FFAB91;
+    border-radius: 25px;
+    padding: 10%;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    text-align: center;
+}
+
+.smart-automations {
+    background-color: #E0E0E0;
+    border-radius: 25px;
+    padding: 10%;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+@media (max-width: 1199px) {
+    .discount {
+        padding: 5%;
+        text-align: center;
+    }
+    .testimonials {
+        padding: 5%;
+        text-align: center;
+    }
+    .revenue-sharing {
+        padding: 5%;
+        text-align: center;
+    }
+    .pay-wish {
+        padding: 5%;
+        text-align: center;
+    }
+    .smart-automations {
+        padding: 5%;
+        text-align: center;
+    }
+}

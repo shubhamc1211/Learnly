@@ -1,0 +1,117 @@
+   /**
+ * @author Taranjot Singh <tr548284@dal.ca/B00945917>
+ */
+ .schedule-name span {
+  font-size: 20px;
+}
+
+.default-schedule-details {
+  flex-direction: column;
+  border: 2px solid #1D267D;
+  width: 500px;
+  padding: 20px;
+}
+
+.day-checkboxes label {
+  display: flex;
+  margin-right: 10px;
+}
+
+.day-checkboxes {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.day-checkboxes label input {
+  margin-right: 10px;
+  display: inline;
+}
+
+.day-checkboxes table {
+  border-collapse: collapse;
+  width: 60%;
+}
+
+.default-day-checkboxes td {
+  padding: 18px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+input {
+  cursor: pointer;
+}
+
+.time-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.default-time-separator {
+  margin: 0 15px;
+}
+
+.larger-label {
+  font-size: 22px;
+}
+
+@media (min-width: 595px) and (max-width: 920px) {
+  .default-schedule-details {
+    width: 550px;  
+  }
+}
+
+@media (min-width: 400px) and (max-width: 594px) {
+ .default-schedule-details {
+   width: 380px;
+ }
+ .default-day-checkboxes td {
+   padding: 1px;
+ }
+ #default-start-time-select-Monday, #default-end-time-select-Monday, #default-start-time-select-Tuesday, #default-end-time-select-Tuesday, #default-start-time-select-Wednesday, #default-end-time-select-Wednesday, #default-start-time-select-Thursday, #default-end-time-select-Thursday, #default-start-time-select-Friday, #default-end-time-select-Friday, #default-start-time-select-Saturday, #default-end-time-select-Saturday, #default-start-time-select-Sunday, #default-end-time-select-Sunday {
+   padding-right: 26px;
+ }
+ .default-time-separator {
+   margin: 0 7px;
+ }
+}
+
+@media (min-width: 347px) and (max-width: 399px) {
+ .default-schedule-details {
+   width: 330px;
+ }
+ .default-day-checkboxes td {
+   padding: 1px;
+ }
+ #default-start-time-select-Monday, #default-end-time-select-Monday, #default-start-time-select-Tuesday, #default-end-time-select-Tuesday, #default-start-time-select-Wednesday, #default-end-time-select-Wednesday, #default-start-time-select-Thursday, #default-end-time-select-Thursday, #default-start-time-select-Friday, #default-end-time-select-Friday, #default-start-time-select-Saturday, #default-end-time-select-Saturday, #default-start-time-select-Sunday, #default-end-time-select-Sunday {
+   padding-right: 24px;
+   font-size: 11px;
+   padding-left: 12px;
+ }
+ .default-time-separator {
+   margin: 5px 7px;
+ }
+}
+
+@media (min-width: 291px) and (max-width: 346px) {
+ .default-schedule-details {
+   width: 280px;
+ }
+ .default-day-checkboxes td {
+   padding: 4px;
+ }
+ #default-start-time-select-Monday, #default-end-time-select-Monday, #default-start-time-select-Tuesday, #default-end-time-select-Tuesday, #default-start-time-select-Wednesday, #default-end-time-select-Wednesday, #default-start-time-select-Thursday, #default-end-time-select-Thursday, #default-start-time-select-Friday, #default-end-time-select-Friday, #default-start-time-select-Saturday, #default-end-time-select-Saturday, #default-start-time-select-Sunday, #default-end-time-select-Sunday {
+   padding-right: 21px;
+   font-size: 8px;
+   padding-left: 7px;
+ }
+ .default-time-separator {
+   margin: 0 2px;
+ }
+ .unavailable{
+   margin-left: 30px;
+   font-size: 15px;
+ }
+}

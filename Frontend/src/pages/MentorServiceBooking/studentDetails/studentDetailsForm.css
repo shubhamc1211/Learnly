@@ -1,0 +1,40 @@
+/**
+ * @author Shivam Lakhanpal <sh475218@dal.ca/B00932887>
+ */
+.paper-container {
+  padding: 20px;
+  height: 100%;
+  max-width: 500px;
+  margin: 0 auto; /* Center the container */
+  background-color: #f7f7f7;
+}
+
+.heading {
+  color: #3f3f3f;
+  margin-bottom: 25px;
+}
+
+.highlight {
+  color: #5c469c;
+}
+
+.detail-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.detail-text {
+  color: #555;
+}
+
+/* Mobile view optimizations */
+@media only screen and (max-width: 768px) {
+  .paper-container {
+    padding: 15px; /* Slightly reduce padding for mobile */
+  }
+  .heading {
+    font-size: 24px; /* Adjust font size for mobile */
+  }
+}

@@ -1,0 +1,39 @@
+/**
+ * @author Shivam Lakhanpal <sh475218@dal.ca/B00932887>
+ */
+.mentor-booking-container {
+  margin-top: 5%;
+}
+
+@media only screen and (min-width: 850px) {
+  .mentor-right-box {
+    height: 98.5%;
+  }
+
+  .mentor-left-box {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .mentor-booking-container {
+    margin-top: 2%;
+  }
+}
+
+/* .left-component,
+.right-component {
+  margin: 0 auto;
+  padding: 0 5%;
+} */
+
+/* For tablets and mobile */
+@media only screen and (max-width: 850px) {
+  .left-component,
+  .right-component {
+    width: 100%;
+    padding: 0 2%;
+    margin: 2%;
+    overflow-x: hidden;
+  }
+}

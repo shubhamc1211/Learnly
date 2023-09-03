@@ -1,0 +1,20 @@
+/**
+ * @author Shubham Chauhan <sh572302@dal.ca/B00945891>
+ */
+.sendQueryStudentDiv .MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.closeButton.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    background-color: transparent;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 10px;
+  justify-content: flex-end; /* Aligns the children to the right */
+}
+
+.sendQueryStudentModal .buttonUpperDiv{
+    display: flex;
+    justify-content: flex-end; /* Aligns the children to the right */
+}
+
+.sendQueryStudentModal .MuiBox-root.css-1wnsr1i{
+    border-radius: 5%;
+    background-color: rgb(248,241,255);
+}

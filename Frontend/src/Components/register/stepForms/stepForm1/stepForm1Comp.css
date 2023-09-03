@@ -1,0 +1,80 @@
+/**
+ * @author Amanjot Singh <am854663@dal.ca/B00942293>
+ */
+
+/* FormStep1.css */
+.MuiBox-root.css-1ynyhby {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 0;
+  margin-right: 8px;
+}
+.content-wrapper {
+  display: inline-block !important; /* Make the div take the width of its content */
+  text-align: left !important; /* Align the text inside the div to the left */
+  margin: 0 auto !important; /* Center the div horizontally */
+  padding-left: 22%;
+  max-width: 600px !important; /* Align all h1 elements to the left */
+}
+
+/* Additional styles for h1 elements */
+.stepForm-form-header {
+  font-size: x-large !important;
+  /* display: flex !important; */
+  /* justify-content: left !important; */
+  /* padding-left: 11%; */
+  width: 100% !important;
+  letter-spacing: 3px !important; /* Adjust the spacing as desired */
+}
+.stepForm-form-header-sub {
+  opacity: 0.7 !important;
+  font-size: medium !important;
+  font-weight: normal !important;
+  text-align: center !important;
+}
+.toggleButton {
+  font-family: "Roboto", Arial, sans-serif !important;
+  font-size: 12px !important; /* Adjust the font size as needed */
+  font-weight: 400 !important;
+  text-transform: none !important;
+  text-align: left !important;
+  /* align-items: "left" !important; */
+}
+
+/* Styling for the selected state */
+.toggleButton.selected {
+  color: white !important;
+  background-color: #0c134f !important;
+}
+.toggleButton:hover {
+  border-color: #1d267d !important;
+}
+.stepForms.header-label {
+  font-size: medium !important;
+  font-weight: 500 !important;
+  margin-left: 3px !important;
+  /* padding-right: 28% !important; */
+}
+@media (max-width: 768px) {
+  .stepForms.header-label {
+    padding-right: 0% !important;
+  }
+  .stepForm-form-header {
+    font-size: x-large !important;
+    display: flex !important;
+    justify-content: center !important;
+    /* padding-left: 35%; */
+    width: 100% !important;
+    letter-spacing: 5px !important; /* Adjust the spacing as desired */
+  }
+  /* .filled-start-adornment {
+      width: 10ch !important;
+    } */
+  .content-wrapper {
+    display: inline-block !important; /* Make the div take the width of its content */
+    text-align: center !important; /* Align the text inside the div to the left */
+    margin: 0 auto !important; /* Center the div horizontally */
+    padding-left: 0%;
+    max-width: 600px !important; /* Align all h1 elements to the left */
+  }
+}
