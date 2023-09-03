@@ -20,13 +20,13 @@ The following are the essential features that were supposed to be developed by o
 
 - Availability Calendar (Taranjot Singh)
 - Payment Integration (Taranjot Singh)
-- Booking System (Shivam Lakhanpal)
 - Ratings & Reviews (Shivam Lakhanpal)
+- Booking System - Student (Shivam Lakhanpal)
 - User Profile Management(Amanjot Singh)
 - Promos & Refer a Friend (Amanjot Singh)
-- AI Writer (Amanjot Singh)
 - Queries Management (Shubham Chauhan)
 - Services Dashboard (Shubham Chauhan)
+- Booking System (Shubham Chauhan)
 - Raise an Issue (Aadith Shameel)
 
 Out of these 10 features, we were able to develop 7 of them. Ratings & Reviews, Promos & Refer a Friend & AI Writer were not implemented. We did 7/10 features because the Booking System & User Profile Management were too complex, which consumed a lot of time.
