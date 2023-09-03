@@ -5,7 +5,6 @@ Our project, Learnly, aims to simplify personalized interactions by providing a 
 - Date Created: 11 August 2023
 - Last Modification Date: 11 Aug 2023
 - Deployed application URL: <https://learnly-io.netlify.app/>
-- GIT URL: <https://git.cs.dal.ca/taranjots/csci-5709-grp-10>
 
 ## Authors
 
